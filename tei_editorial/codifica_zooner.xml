@@ -1,0 +1,44 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <facsimile>
+    <graphic url="lettera_bellini.jpg"/>
+    <surface>
+      <zone xml:id="tit_bellini" ulx="620" uly="80" lrx="980" lry="140" />
+      <zone xml:id="corpo_bellini" ulx="620" uly="150" lrx="980" lry="690" />
+      <zone xml:id="firma_bellini" ulx="720" uly="700" lrx="980" lry="750" />
+    </surface>
+  </facsimile>
+
+  <text>
+    <body>
+      <div type="letter">
+        <opener>
+          <p facs="#tit_bellini"> <lb/><choice><gap reason="illegible"/></choice> 26:  <choice><gap reason="illegible"/></choice></p>
+        </opener>
+        <lb/><p facs="#corpo_bellini">Mio caro Bellini,
+        <lb/>Avendo <choice><gap reason="illegible"/></choice>
+        <lb/>e mancando in ogni  <choice><gap reason="illegible"/></choice>
+        <lb/><choice><gap reason="illegible"/></choice>, desidererei che tu
+        <lb/>t&#8217; <choice><gap reason="illegible"/></choice> a venire a 
+        <lb/><choice><gap reason="illegible"/></choice>
+        <lb/><choice><gap reason="illegible"/></choice> la 
+        <lb/><choice><gap reason="illegible"/></choice>
+        <lb/>T'aspetto in qual giorno 
+        <lb/>ed in qual'ora ormai</p>
+
+        <closer>
+          <signed facs="#firma_bellini"> <choice><gap reason="illegible"/></choice></signed>
+        </closer>
+
+        <div type="envelope">
+          <address facs="#corpo_bellini">
+            <addrLine>à Monsieur</addrLine>
+            <addrLine>Monsieur le Comte <choice><gap reason="illegible"/></choice></addrLine>
+            <addrLine>rue Lepage de petit Genf</addrLine>
+            <addrLine>à Paris</addrLine>
+          </address>
+          <note type="sender" facs="#firma_bellini">lettera del Bellini <choice><gap reason="illegible"/></choice></note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
