@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Testo di esempio marcato in XML</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corso di Codifica</publisher>
+        <date>2025-06-26</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Testo originale per esercizio didattico.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="chapter" xml:id="capitolo1">
+        <head>Il viaggiatore e la città sepolta</head>
+        <p>Il sole stava calando lentamente dietro la catena di colline che cingeva l’antica vallata. Un viaggiatore solitario, con lo zaino in spalla e gli scarponi consumati dalla strada, avanzava lungo un sentiero battuto dal vento. Aveva sentito parlare della città sepolta sotto la sabbia, un tempo centro fiorente di commerci e conoscenze, poi scomparsa dalle mappe e dalla memoria degli uomini.</p>
+        <p>Ogni sera, accampato tra le rocce, accendeva un fuoco e sfogliava gli appunti lasciatigli dal nonno, un archeologo appassionato che aveva dedicato la vita alla ricerca di quel luogo misterioso. I disegni, le coordinate, i simboli ricorrenti sulle incisioni: tutto suggeriva che fosse vicino alla verità, e ora anche lui, molti anni dopo, stava ripercorrendo quelle tracce con la speranza di completare la scoperta.</p>
+        <p>Il terzo giorno di marcia, dopo aver superato un passo impervio, scorse finalmente qualcosa: un profilo squadrato che emergeva dalla sabbia come una cicatrice nel paesaggio. Avvicinandosi, riconobbe i resti di un colonnato e l’ingresso semisepolto di un edificio monumentale. Il cuore gli batteva forte mentre scendeva i gradini scolpiti nella roccia, coperti da secoli di polvere e silenzio.</p>
+        <p>Nel buio della cripta, accese la torcia elettrica. Le pareti erano ricoperte da affreschi scoloriti ma leggibili, e al centro della sala giaceva una statua mutila di una figura con una tavoletta tra le mani. Sotto, un’iscrizione incisa in una lingua arcaica narrava la caduta della città, travolta da un cataclisma che i sapienti non avevano saputo evitare. Era una memoria perduta, conservata per chi avesse saputo ascoltare.</p>
+        <p>Restò a lungo in silenzio, poi si inginocchiò e cominciò a copiare le iscrizioni nel suo quaderno. Aveva trovato la città, ma soprattutto aveva ritrovato un legame con la sua storia, con le parole del nonno, con la promessa fatta da bambino davanti a una mappa ingiallita. Quando tornò indietro, portava con sé più che semplici appunti: custodiva un’eredità riscoperta, e il senso profondo di aver mantenuto fede a un destino scritto nella sabbia.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

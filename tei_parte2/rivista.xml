@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le sfide dell'editoria digitale</title>
+        <author>Giulia Ferri</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Rivista di Studi Digitali</publisher>
+        <date>2025-04</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Volume 12, Numero 2, pp. 45-52</bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="article">
+        <head>Le sfide dell'editoria digitale nel XXI secolo</head>
+        <p>Con l’avvento del digitale, il settore editoriale ha subito una profonda trasformazione. La <term type="medium">pubblicazione elettronica</term> ha modificato le modalità di produzione, distribuzione e fruizione dei contenuti, ponendo nuove sfide agli editori tradizionali.</p>
+        <p>Uno dei principali cambiamenti riguarda la <term type="access">distribuzione open access</term>, che ha messo in discussione i modelli economici preesistenti. Sempre più riviste scientifiche adottano modelli ibridi, con <rs type="policy">autori che pagano per pubblicare</rs> al fine di garantire la libera consultazione.</p>
+        <p>In questo contesto, diventa fondamentale il ruolo delle <orgName type="institution">biblioteche digitali</orgName> e delle infrastrutture di conservazione a lungo termine.</p>
+      </div>
+    </body>
+
+    <back>
+      <div type="glossary">
+        <list type="gloss">
+          <item>
+            <term xml:id="openaccess">Open Access</term>
+            <gloss>Modello di distribuzione che permette l’accesso libero e gratuito ai contenuti.</gloss>
+          </item>
+          <item>
+            <term xml:id="pubblicaz">Pubblicazione elettronica</term>
+            <gloss>Processo di diffusione dei testi tramite piattaforme digitali.</gloss>
+          </item>
+        </list>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cartolina da Venezia</title>
+        <author>Lucia Bianchi</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Archivio personale</publisher>
+        <date>1921-08-17</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Cartolina manoscritta spedita da Venezia a Firenze.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="message">
+        <p><placeName>Venezia</placeName>, 17 agosto 1921</p>
+        <p>Cara <persName>Maria</persName>,</p>
+        <p>ti scrivo da questa splendida città piena di luce e riflessi sull'acqua. Ho visitato <placeName>San Marco</placeName> e fatto un lungo giro in gondola. Il tempo è magnifico e i colori dei palazzi sono indimenticabili.</p>
+        <p>Spero che tu stia bene. Tornerò a <placeName>Firenze</placeName> la prossima settimana e non vedo l'ora di raccontarti tutto di persona.</p>
+        <p>Con affetto,<br/>
+        <persName>Lucia</persName></p>
+      </div>
+    </body>
+
+    <back>
+      <div type="address">
+        <p>A <persName>Maria Rossi</persName><br/>
+        Via delle Rose, 14<br/>
+        <placeName>Firenze</placeName></p>
+      </div>
+    </back>
+  </text>
+</TEI>

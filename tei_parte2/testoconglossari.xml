@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Testo arricchito con marcatura semantica</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corso di Codifica</publisher>
+        <date>2025-06-26</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Testo per esercizio didattico.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="chapter" xml:id="capitolo1">
+        <head>Il viaggiatore e la città sepolta</head>
+        <p>Il sole stava calando lentamente dietro la catena di colline che cingeva l’antica vallata.
+        Un <rs type="role">viaggiatore</rs> solitario, con lo zaino in spalla e gli scarponi consumati dalla strada,
+        avanzava lungo un sentiero battuto dal vento. Aveva sentito parlare della <placeName type="legendary">città sepolta</placeName>,
+        un tempo centro fiorente di <term ref="#comm">commerci</term> e <term type="theme">conoscenze</term>,
+        poi scomparsa dalle mappe e dalla memoria degli uomini.</p>
+
+        <p>Ogni sera, accampato tra le rocce, accendeva un fuoco e sfogliava gli appunti lasciatigli dal nonno,
+        <persName ref="#nonno">Guglielmo</persName><note xml:id="n1">Archeologo appassionato della cultura pre-ellenica</note>,
+        un <term type="profession">archeologo</term> che aveva dedicato la vita alla ricerca di quel luogo misterioso.</p>
+
+        <p>Il terzo giorno di marcia, dopo aver superato un passo impervio, scorse finalmente qualcosa:
+        un profilo squadrato che emergeva dalla sabbia come una cicatrice nel paesaggio. Avvicinandosi,
+        riconobbe i resti di un colonnato e l’ingresso semisepolto di un edificio monumentale.
+        Il cuore gli batteva forte mentre scendeva i gradini scolpiti nella roccia.</p>
+
+        <p>Nel buio della cripta, accese la torcia elettrica. Le pareti erano ricoperte da affreschi scoloriti,
+        e al centro della sala giaceva una statua mutila di una figura con una tavoletta tra le mani.
+        Sotto, un’iscrizione incisa in una lingua arcaica narrava la caduta della città,
+        travolta da un <rs type="event">cataclisma</rs> che i <rs type="people">sapienti</rs>
+        <term ref="#sap">non avevano saputo evitare</term>.
+        <note place="bottom">Secondo alcune teorie, si trattò di un'esplosione solare anomala.</note></p>
+
+        <p>Restò a lungo in silenzio, poi si inginocchiò e cominciò a copiare le iscrizioni nel suo quaderno.
+        Aveva trovato la città, ma soprattutto aveva ritrovato un legame con la sua storia,
+        con le parole del nonno, con la promessa fatta da bambino davanti a una mappa ingiallita.</p>
+      </div>
+    </body>
+
+    <back>
+        <listPerson>
+        <person xml:id="nonno">
+          <persName>Guglielmo</persName>
+          <note>Nonno del protagonista, archeologo italiano vissuto nel XX secolo.</note>
+        </person>
+      </listPerson>
+      <div type="glossary">
+        <list type="gloss">
+          <item>
+            <term xml:id="comm">Commercio</term>
+            <gloss>Scambio organizzato di beni e servizi, spesso tra popoli o regioni diverse.</gloss>
+          </item>
+          <item>
+            <term xml:id="sap">Sapiente</term>
+            <gloss>Figura dotta che ricopriva un ruolo di guida intellettuale in società antiche.</gloss>
+          </item>
+        </list>
+      </div>
+
+      <div type="notes">
+        <list type="bulleted">
+          <item>Coordinate segnate nei taccuini</item>
+          <item>Simboli ricorrenti scolpiti sulla pietra</item>
+          <item>Segni cartografici arcaici</item>
+        </list>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "file_3_esterna.dtd">
+<TEI>
+  <header lang="it">Esempio di intestazione</header>
+  <facsimile source="pagina1.jpg"/>
+  <testo id="t1" type="narrativo">
+    Questo è un testo con <seg>segmenti</seg> marcati.
+  </testo>
+  <testo id="t2">
+    Secondo blocco di testo senza attributo type.
+  </testo>
+</TEI>

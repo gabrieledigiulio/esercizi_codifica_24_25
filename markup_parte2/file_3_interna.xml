@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+  <!ELEMENT TEI (header, facsimile?, testo+)>
+
+  <!ELEMENT header (#PCDATA)>
+  <!ATTLIST header
+      type CDATA #FIXED "intestazione"
+      lang NMTOKEN #IMPLIED>
+
+  <!ELEMENT facsimile (#PCDATA)>
+  <!ATTLIST facsimile
+      source CDATA #REQUIRED
+      ref IDREFS #IMPLIED>
+
+  <!ELEMENT testo (#PCDATA | seg)*>
+  <!ATTLIST testo
+      id ID #REQUIRED
+      type CDATA #IMPLIED>
+
+  <!ELEMENT seg (#PCDATA)>
+]>
+<TEI>
+  <header lang="it">Esempio di intestazione</header>
+  <facsimile source="pagina1.jpg"/>
+  <testo id="t1" type="narrativo">
+    Questo è un testo con <seg>segmenti</seg> marcati.
+  </testo>
+</TEI>
